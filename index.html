@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Bài tập js Buổi 7-8</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- Tạo mảng mới -->
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-xl">
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Tạo mảng mới</h3>
+                    </div>
+                    <div class="card-body">
+                        <div class="form-group">
+                            <label for="">Thêm số vào mảng:</label>
+                            <input id="txtArray" type="text" />
+                        </div>
+                        <button id="btnArray" class="btn btn-success">Thêm số</button>
+                    </div>
+                    <div id="newArray" class="alert alert-success card-footer text-muted"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr />
+    <!-- Bài tập 1 -->
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-xl">
+                <div class=" card ">
+                    <div class="card-header ">
+                        <h3>Bài tập 1: Tính tổng các số dương trong mảng</h3>
+                    </div>
+                    <div class="card-body ">
+                        <button id="btnKetQua1" class="btn btn-dark">Tính tổng</button>
+                    </div>
+                    <div id="txtKetQua1" class="alert alert-success card-footer text-muted "></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr />
+    <!-- Bài tập 2-->
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-xl">
+                <div class="card">
+                    <div class="card-header ">
+                        <h3>Bài tập 2: Đếm số dương trong mảng</h3>
+                    </div>
+                    <div class="card-body ">
+                        <button id="btnKetQua2" class="btn btn-danger">Kết quả</button>
+                    </div>
+                    <div id="txtKetQua2" class="alert alert-success card-footer text-muted"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr />
+    <!-- Bài tập 3-->
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-xl">
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Bài tập 3: Tìm số nhỏ nhất trong mảng</h3>
+                    </div>
+                    <div class="card-body">
+                        <button id="btnKetQua3" class="btn btn-light">Kết quả</button>
+                    </div>
+                    <div id="txtKetQua3" class="alert alert-success card-footer text-muted"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr />
+    <!-- Bài tập 4-->
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-xl">
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Bài 4: Tìm số dương nhỏ nhất trong mảng</h3>
+                    </div>
+                    <div class="card-body">
+                        <button id="btnKetQua4" class="btn btn-info">Kết quả</button>
+                    </div>
+                    <div id="txtKetQua4" class="alert alert-success card-footer text-muted"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr />
+    <!-- Bài tập 5-->
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-xl">
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Bài tập 5: Tìm số chẵn cuối cùng của mảng</h3>
+                    </div>
+                    <div class="card-body">
+                        <button id="btnKetQua5" class="btn btn-primary">Kết quả</button>
+                    </div>
+                    <div id="txtKetQua5" class="alert alert-success card-footer text-muted"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr />
+    <!-- Bài tập 6-->
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-xl">
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Bài 6: Đổi chỗ 2 vị trí trong mảng theo vị trí</h3>
+                    </div>
+                    <div class="card-body">
+                        <div class="form-group">
+                            <label for="">Nhập vị trí 1:</label>
+                            <input id="viTri1" type="text" />
+                        </div>
+                        <div class="form-group">
+                            <label for="">Nhập vị trí 2:</label>
+                            <input id="viTri2" type="text" />
+                        </div>
+                        <button id="btnKetQua6" class="btn btn-warning">Đổi chỗ</button>
+                    </div>
+                    <div id="txtKetQua6" class="alert alert-success card-footer text-muted"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr />
+    <!-- Bài tập 7-->
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-xl">
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Bài 7: Sắp xếp mảng tăng dần</h3>
+                    </div>
+                    <div class="card-body">
+                        <button id="btnKetQua7" class="btn btn-secondary">Kết quả</button>
+                    </div>
+                    <div id="txtKetQua7" class="alert alert-success card-footer text-muted"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr />
+    <!-- Bài tập 8-->
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-xl">
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Bài tập 8: Tìm số nguyên tố đầu tiên</h3>
+                    </div>
+                    <div class="card-body">
+                        <button id="btnKetQua8" class="btn btn-success">Kết quả</button>
+                    </div>
+                    <div id="txtKetQua8" class="alert alert-success card-footer text-muted"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr />
+    <!-- Bài tập 9-->
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-xl">
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Bài tập 9: Đếm số nguyên trong mảng</h3>
+                    </div>
+                    <div class="card-body">
+                        <button id="btnKetQua9" class="btn btn-warning">Kết quả</button>
+                    </div>
+                    <div id="txtKetQua9" class="alert alert-success card-footer text-muted"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr />
+    <!-- Bài tập 10-->
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-xl">
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Bài tập 10: So sánh số lượng số âm và số dương trong mảng</h3>
+                    </div>
+                    <div class="card-body">
+                        <button id="btnKetQua10" class="btn btn-danger">So sánh</button>
+                    </div>
+                    <div id="txtKetQua10" class="alert alert-success card-footer text-muted"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="./main.js" defer></script>
+</body>
+
+</html>
